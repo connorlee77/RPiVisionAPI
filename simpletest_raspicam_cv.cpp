@@ -45,5 +45,6 @@ int main ( int argc,char **argv ) {
 	
     cv::imwrite("raspicam_cv_image.jpg", threshold_frame);
     cv::imwrite("raspicam_cv_image1.jpg", image);
-    
 }
+
+

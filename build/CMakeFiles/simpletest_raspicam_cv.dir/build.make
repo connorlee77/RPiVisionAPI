@@ -35,7 +35,11 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The program to use to edit the cache.
+<<<<<<< HEAD
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+=======
+CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
+>>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
 
 # The top-level source directory on which CMake was run.
 CMAKE_SOURCE_DIR = /home/pi/Desktop/test
