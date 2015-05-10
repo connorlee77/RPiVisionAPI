@@ -28,54 +28,30 @@ The CXX compiler identification is GNU, found in "/home/pi/Desktop/test/build/CM
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command:/usr/bin/make "cmTryCompileExec2761854100/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2761854100.dir/build.make CMakeFiles/cmTryCompileExec2761854100.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec367219624/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec367219624.dir/build.make CMakeFiles/cmTryCompileExec367219624.dir/build
 make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2761854100.dir/testCCompiler.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2761854100.dir/testCCompiler.c.o   -c /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec2761854100
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2761854100.dir/link.txt --verbose=1
-/usr/bin/gcc         CMakeFiles/cmTryCompileExec2761854100.dir/testCCompiler.c.o  -o cmTryCompileExec2761854100 -rdynamic 
-=======
-Run Build Command:/usr/bin/make "cmTryCompileExec248793220/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec248793220.dir/build.make CMakeFiles/cmTryCompileExec248793220.dir/build
-make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec248793220.dir/testCCompiler.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec248793220.dir/testCCompiler.c.o   -c /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec248793220
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec248793220.dir/link.txt --verbose=1
-/usr/bin/gcc         CMakeFiles/cmTryCompileExec248793220.dir/testCCompiler.c.o  -o cmTryCompileExec248793220 -rdynamic 
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+Building C object CMakeFiles/cmTryCompileExec367219624.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec367219624.dir/testCCompiler.c.o   -c /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec367219624
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec367219624.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec367219624.dir/testCCompiler.c.o  -o cmTryCompileExec367219624 -rdynamic 
 make[1]: Leaving directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command:/usr/bin/make "cmTryCompileExec1145675681/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1145675681.dir/build.make CMakeFiles/cmTryCompileExec1145675681.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1893054869/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1893054869.dir/build.make CMakeFiles/cmTryCompileExec1893054869.dir/build
 make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec1145675681
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1145675681.dir/link.txt --verbose=1
-/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1145675681 -rdynamic  
-=======
-Run Build Command:/usr/bin/make "cmTryCompileExec2324433810/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2324433810.dir/build.make CMakeFiles/cmTryCompileExec2324433810.dir/build
-make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec2324433810
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2324433810.dir/link.txt --verbose=1
-/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2324433810 -rdynamic  
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+Building C object CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1893054869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1893054869.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1893054869 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.6/lto-wrapper
@@ -85,13 +61,8 @@ Thread model: posix
 gcc version 4.6.3 (Debian 4.6.3-14+rpi1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-<<<<<<< HEAD
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1145675681' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp'
- /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec1145675681 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o
-=======
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2324433810' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp'
- /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec2324433810 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1893054869' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec1893054869 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o
 make[1]: Leaving directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
 
 
@@ -99,27 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp]
   ignore line: []
-<<<<<<< HEAD
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1145675681/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1145675681.dir/build.make CMakeFiles/cmTryCompileExec1145675681.dir/build]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1893054869/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1893054869.dir/build.make CMakeFiles/cmTryCompileExec1893054869.dir/build]
   ignore line: [make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec1145675681]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1145675681.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1145675681 -rdynamic  ]
-=======
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2324433810/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2324433810.dir/build.make CMakeFiles/cmTryCompileExec2324433810.dir/build]
-  ignore line: [make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec2324433810]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2324433810.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2324433810 -rdynamic  ]
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1893054869]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1893054869.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1893054869 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.6/lto-wrapper]
@@ -129,13 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.6.3 (Debian 4.6.3-14+rpi1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-<<<<<<< HEAD
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1145675681' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec1145675681 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o]
-=======
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2324433810' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec2324433810 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o]
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1893054869' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec1893054869 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -149,11 +103,7 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-<<<<<<< HEAD
-    arg [cmTryCompileExec1145675681] ==> ignore
-=======
-    arg [cmTryCompileExec2324433810] ==> ignore
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+    arg [cmTryCompileExec1893054869] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o] ==> ignore
@@ -162,11 +112,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-<<<<<<< HEAD
-    arg [CMakeFiles/cmTryCompileExec1145675681.dir/CMakeCCompilerABI.c.o] ==> ignore
-=======
-    arg [CMakeFiles/cmTryCompileExec2324433810.dir/CMakeCCompilerABI.c.o] ==> ignore
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+    arg [CMakeFiles/cmTryCompileExec1893054869.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -194,54 +140,30 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command:/usr/bin/make "cmTryCompileExec487455328/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec487455328.dir/build.make CMakeFiles/cmTryCompileExec487455328.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3453108455/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3453108455.dir/build.make CMakeFiles/cmTryCompileExec3453108455.dir/build
 make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec487455328.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec487455328.dir/testCXXCompiler.cxx.o -c /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec487455328
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec487455328.dir/link.txt --verbose=1
-/usr/bin/c++          CMakeFiles/cmTryCompileExec487455328.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec487455328 -rdynamic 
-=======
-Run Build Command:/usr/bin/make "cmTryCompileExec2737564788/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2737564788.dir/build.make CMakeFiles/cmTryCompileExec2737564788.dir/build
-make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2737564788.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2737564788.dir/testCXXCompiler.cxx.o -c /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec2737564788
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2737564788.dir/link.txt --verbose=1
-/usr/bin/c++          CMakeFiles/cmTryCompileExec2737564788.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2737564788 -rdynamic 
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+Building CXX object CMakeFiles/cmTryCompileExec3453108455.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3453108455.dir/testCXXCompiler.cxx.o -c /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3453108455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3453108455.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec3453108455.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3453108455 -rdynamic 
 make[1]: Leaving directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command:/usr/bin/make "cmTryCompileExec323467908/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec323467908.dir/build.make CMakeFiles/cmTryCompileExec323467908.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3010821299/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3010821299.dir/build.make CMakeFiles/cmTryCompileExec3010821299.dir/build
 make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec323467908
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec323467908.dir/link.txt --verbose=1
-/usr/bin/c++        -v CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec323467908 -rdynamic  
-=======
-Run Build Command:/usr/bin/make "cmTryCompileExec2725168169/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2725168169.dir/build.make CMakeFiles/cmTryCompileExec2725168169.dir/build
-make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec2725168169
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2725168169.dir/link.txt --verbose=1
-/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2725168169 -rdynamic  
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+Building CXX object CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3010821299
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3010821299.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3010821299 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.6/lto-wrapper
@@ -251,13 +173,8 @@ Thread model: posix
 gcc version 4.6.3 (Debian 4.6.3-14+rpi1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-<<<<<<< HEAD
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec323467908' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp'
- /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec323467908 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o
-=======
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2725168169' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp'
- /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec2725168169 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3010821299' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec3010821299 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o
 make[1]: Leaving directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp'
 
 
@@ -265,27 +182,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp]
   ignore line: []
-<<<<<<< HEAD
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec323467908/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec323467908.dir/build.make CMakeFiles/cmTryCompileExec323467908.dir/build]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3010821299/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3010821299.dir/build.make CMakeFiles/cmTryCompileExec3010821299.dir/build]
   ignore line: [make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec323467908]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec323467908.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec323467908 -rdynamic  ]
-=======
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2725168169/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2725168169.dir/build.make CMakeFiles/cmTryCompileExec2725168169.dir/build]
-  ignore line: [make[1]: Entering directory '/home/pi/Desktop/test/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec2725168169]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2725168169.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2725168169 -rdynamic  ]
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3010821299]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3010821299.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3010821299 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.6/lto-wrapper]
@@ -295,13 +200,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.6.3 (Debian 4.6.3-14+rpi1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.6/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-<<<<<<< HEAD
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec323467908' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec323467908 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o]
-=======
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2725168169' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec2725168169 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o]
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3010821299' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=both -m armelf_linux_eabi -o cmTryCompileExec3010821299 /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.6 -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.6/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -315,11 +215,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-<<<<<<< HEAD
-    arg [cmTryCompileExec323467908] ==> ignore
-=======
-    arg [cmTryCompileExec2725168169] ==> ignore
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+    arg [cmTryCompileExec3010821299] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.6/crtbegin.o] ==> ignore
@@ -328,11 +224,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.6/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-<<<<<<< HEAD
-    arg [CMakeFiles/cmTryCompileExec323467908.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-=======
-    arg [CMakeFiles/cmTryCompileExec2725168169.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
->>>>>>> 319931173f2a3a631a75e83cc208281b2379f882
+    arg [CMakeFiles/cmTryCompileExec3010821299.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
