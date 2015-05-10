@@ -1,0 +1,1 @@
+/home/pi/Desktop/test/build/CMakeFiles/simpletest_raspicam_cv.dir
