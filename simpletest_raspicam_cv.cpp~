@@ -15,6 +15,7 @@ cv::Mat captureImage() {
     Camera.set(CV_CAP_PROP_FORMAT, CV_8UC4);
 
     if (!Camera.open()) {
+    	return 1;
 		cerr << "Error opening the camera" << endl;
 	}
 
@@ -41,6 +42,10 @@ cv::Mat thresholdFrame(cv::Mat image ) {
 	cv::Mat threshold_frame;
 	cv::inRange(hsv_frame, min, max, threshold_frame);
 	
+	cv::Mat str_el = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(3, 3));
+	morphologyEx(threshold_frame, threshold_frame, cv::MORPH_OPEN, str_el);
+	morphologyEx(threshold_frame, threshold_frame, cv::MORPH_CLOSE, str_el);
+	
 	return threshold_frame;
 }
 
@@ -56,6 +61,10 @@ cv::Point2i findObject(cv::Mat threshold_frame) {
 	
 	int minTargetRadius = 5; 
 	size_t count = contours.size();
+	
+	
+	cv::Point2f p(0, 0);
+	center.push_back(p);
 	 
 	for( int i=0; i<count; i++)
 	{
@@ -69,23 +78,28 @@ cv::Point2i findObject(cv::Mat threshold_frame) {
 		    radius.push_back(r);
 		}
 	}
-	
+
 	count = center.size();
 	cv::Scalar red(255,0,0);
+	
+	if(count == 1) {
+		return center[0];
+	}
 	 
 	for( int i = 0; i < count; i++)
 	{
 		cv::circle(threshold_frame, center[i], radius[i], red, 3);
 	}
 	
-	return center[0];
+	return center[1];
 }
 
 void track() {
 	cv::Mat image = captureImage();
 	cv::Mat threshold_frame = thresholdFrame(image);
 	cv::Point2i pt = findObject(threshold_frame);
-	cout << pt.x << ", " << pt.y << "\n" << endl;
+	cout << pt.x << endl;
+	cout << pt.y << endl;
 	
     cv::imwrite("raspicam_cv_image.jpg", threshold_frame);
     cv::imwrite("raspicam_cv_image1.jpg", image);

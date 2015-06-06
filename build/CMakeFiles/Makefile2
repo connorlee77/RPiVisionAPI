@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/test
+CMAKE_SOURCE_DIR = /home/pi/Desktop/RPiVisionAPI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/test/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/RPiVisionAPI/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/simpletest_raspicam_cv.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/pi/Desktop/test/build
 CMakeFiles/simpletest_raspicam_cv.dir/all:
 	$(MAKE) -f CMakeFiles/simpletest_raspicam_cv.dir/build.make CMakeFiles/simpletest_raspicam_cv.dir/depend
 	$(MAKE) -f CMakeFiles/simpletest_raspicam_cv.dir/build.make CMakeFiles/simpletest_raspicam_cv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/Desktop/RPiVisionAPI/build/CMakeFiles  1
 	@echo "Built target simpletest_raspicam_cv"
 .PHONY : CMakeFiles/simpletest_raspicam_cv.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/simpletest_raspicam_cv.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simpletest_raspicam_cv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/test/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/RPiVisionAPI/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/simpletest_raspicam_cv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/RPiVisionAPI/build/CMakeFiles 0
 .PHONY : CMakeFiles/simpletest_raspicam_cv.dir/rule
 
 # Convenience name for target.

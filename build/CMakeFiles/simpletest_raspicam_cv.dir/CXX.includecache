@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/Desktop/test/simpletest_raspicam_cv.cpp
+/home/pi/Desktop/RPiVisionAPI/simpletest_raspicam_cv.cpp
 ctime
 -
 iostream

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/test
+CMAKE_SOURCE_DIR = /home/pi/Desktop/RPiVisionAPI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/test/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/RPiVisionAPI/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/simpletest_raspicam_cv.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/simpletest_raspicam_cv.dir/flags.make
 
 CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.o: CMakeFiles/simpletest_raspicam_cv.dir/flags.make
 CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.o: ../simpletest_raspicam_cv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/Desktop/test/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/pi/Desktop/RPiVisionAPI/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.o -c /home/pi/Desktop/test/simpletest_raspicam_cv.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.o -c /home/pi/Desktop/RPiVisionAPI/simpletest_raspicam_cv.cpp
 
 CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/pi/Desktop/test/simpletest_raspicam_cv.cpp > CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/pi/Desktop/RPiVisionAPI/simpletest_raspicam_cv.cpp > CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.i
 
 CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/pi/Desktop/test/simpletest_raspicam_cv.cpp -o CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/pi/Desktop/RPiVisionAPI/simpletest_raspicam_cv.cpp -o CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.s
 
 CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.o.requires:
 .PHONY : CMakeFiles/simpletest_raspicam_cv.dir/simpletest_raspicam_cv.cpp.o.requires
@@ -103,6 +103,6 @@ CMakeFiles/simpletest_raspicam_cv.dir/clean:
 .PHONY : CMakeFiles/simpletest_raspicam_cv.dir/clean
 
 CMakeFiles/simpletest_raspicam_cv.dir/depend:
-	cd /home/pi/Desktop/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/test /home/pi/Desktop/test /home/pi/Desktop/test/build /home/pi/Desktop/test/build /home/pi/Desktop/test/build/CMakeFiles/simpletest_raspicam_cv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/Desktop/RPiVisionAPI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/Desktop/RPiVisionAPI /home/pi/Desktop/RPiVisionAPI /home/pi/Desktop/RPiVisionAPI/build /home/pi/Desktop/RPiVisionAPI/build /home/pi/Desktop/RPiVisionAPI/build/CMakeFiles/simpletest_raspicam_cv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/simpletest_raspicam_cv.dir/depend
 

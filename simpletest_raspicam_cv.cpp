@@ -1,4 +1,6 @@
 #include <ctime>
+#include <stdio.h>
+#include <stdlib.h>
 #include <iostream>
 #include <raspicam/raspicam_cv.h>
 #include <opencv2/opencv.hpp>
@@ -15,15 +17,18 @@ cv::Mat captureImage() {
     Camera.set(CV_CAP_PROP_FORMAT, CV_8UC4);
 
     if (!Camera.open()) {
+    	exit(1);
 		cerr << "Error opening the camera" << endl;
 	}
 
     for(int i=0; i < nCount; i++) {
         Camera.grab();
         Camera.retrieve(image);
+        /*
         if(i % 5 == 0) {
         	cout << "\r captured " << i << " images\n" << std::flush;
     	}
+    	*/
     }
 
     Camera.release();
@@ -60,6 +65,10 @@ cv::Point2i findObject(cv::Mat threshold_frame) {
 	
 	int minTargetRadius = 5; 
 	size_t count = contours.size();
+	
+	
+	cv::Point2f p(0, 0);
+	center.push_back(p);
 	 
 	for( int i=0; i<count; i++)
 	{
@@ -73,23 +82,28 @@ cv::Point2i findObject(cv::Mat threshold_frame) {
 		    radius.push_back(r);
 		}
 	}
-	
+
 	count = center.size();
 	cv::Scalar red(255,0,0);
+	
+	if(count == 1) {
+		return center[0];
+	}
 	 
 	for( int i = 0; i < count; i++)
 	{
 		cv::circle(threshold_frame, center[i], radius[i], red, 3);
 	}
 	
-	return center[0];
+	return center[1];
 }
 
 void track() {
 	cv::Mat image = captureImage();
 	cv::Mat threshold_frame = thresholdFrame(image);
 	cv::Point2i pt = findObject(threshold_frame);
-	cout << pt.x << ", " << pt.y << "\n" << endl;
+	cout << pt.x << endl;
+	cout << pt.y << endl;
 	
     cv::imwrite("raspicam_cv_image.jpg", threshold_frame);
     cv::imwrite("raspicam_cv_image1.jpg", image);
